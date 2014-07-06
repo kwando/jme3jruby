@@ -13,5 +13,6 @@ end
 
 desc 'run the project'
 task :run do
- sh 'JRUBY_OPTS="-J-Xmx128M --2.0" jruby src/main.rb -I"engine/dist/"'
+ #sh 'JRUBY_OPTS="-J-Xmx128M --2.0" jruby src/main.rb -I"engine/dist/"'
+  sh 'bin/zorena'
 end 

@@ -1,2 +1,2 @@
 echo 'booting zorena, hang tight..'
-JRUBY_OPTS="-J-Xmx128M --2.0" jruby src/main.rb -I"engine/dist/"
+JRUBY_OPTS="-J-Xmx128M --2.0 -Xcompile.invokedynamic=false" jruby src/main.rb -I"engine/dist/"
